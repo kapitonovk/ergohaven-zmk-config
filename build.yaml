@@ -3,8 +3,7 @@ include:
   - board: ergohaven
     shield: trackball
     keymap: trackball_v3.1
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_KEYBOARD_NAME=\"EH\ TB\ v3.1\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"EH\ TB\ v3.1\"
     artifact-name: trackball_v3.1-ergohaven-zmk
 
   - board: ergohaven
