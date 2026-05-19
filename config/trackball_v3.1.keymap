@@ -58,8 +58,8 @@
 
         base {
             bindings = <
-&hold_mo_tap_mkp MB2  &mkp 2 MB1
-&adj1     &adj2
+&hold_mo_tap_mkp 2 MB2  &mkp MB1
+&adj1                    &adj2
             >;
 
             display-name = "Base";
