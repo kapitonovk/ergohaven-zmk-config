@@ -23,9 +23,8 @@
         compatible = "zmk,combos";
 
         base_combo {
-            bindings = <&tog 1>;
+            bindings = <&hold_mo_tap_mkp 1 MB3>;
             key-positions = <0 1>;
-            timeout-ms = <50>;
         };
     };
 
